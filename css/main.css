@@ -6,6 +6,7 @@
     position: absolute;
     top: 0;
     left: 200px;
+    transform: skew(20deg, 10deg);
 }
 
 .girl-2 {
@@ -28,4 +29,21 @@
     position: absolute;
     top: 0;
     left: 600px;
+    transform: rotate(45deg);
+}
+
+.peach-wrapper {
+    position: absolute;
+    border: 1px solid black;
+}
+
+.peach-wrapper img {
+    width: 900px;
+    transform: translate(300px, 50px) scale(1);
+    transition: all 1s ease;
+    /* transform: scale(-1); */
+}
+
+.peach-wrapper:hover img {
+    transform: translate(300px, 50px) scale(-1);
 }
