@@ -1,5 +1,14 @@
+.girl-group {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+}
+
 .girl-group img {
     width: 70px;
+    transition: all 2s ease;
 }
 
 .girl-1 {
@@ -9,10 +18,18 @@
     transform: skew(20deg, 10deg);
 }
 
+.girl-group:hover .girl-1 {
+    transform: translateY(1000px);
+}
+
 .girl-2 {
     position: absolute;
     top: 0;
     left: 300px;
+}
+
+.girl-group:hover .girl-2 {
+    transform: translateY(1000px);
 }
 
 .girl-3 {
@@ -20,16 +37,30 @@
     top: 0;
     left: 400px;
 }
+
+.girl-group:hover .girl-3 {
+    transform: translateY(1000px);
+}
+
 .girl-4 {
     position: absolute;
     top: 0;
     left: 500px;
 }
+
+.girl-group:hover .girl-4 {
+    transform: translateY(1000px);
+}
+
 .girl-5 {
     position: absolute;
     top: 0;
     left: 600px;
     transform: rotate(45deg);
+}
+
+.girl-group:hover .girl-5 {
+    transform: translateY(1000px);
 }
 
 .peach-wrapper {
@@ -40,7 +71,7 @@
 .peach-wrapper img {
     width: 900px;
     transform: translate(300px, 50px) scale(1);
-    transition: all 1s ease;
+    transition: all .5s ease-out;
     /* transform: scale(-1); */
 }
 
