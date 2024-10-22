@@ -1,1 +1,31 @@
-/* Place CSS styles here */
+.girl-group img {
+    width: 70px;
+}
+
+.girl-1 {
+    position: absolute;
+    top: 0;
+    left: 200px;
+}
+
+.girl-2 {
+    position: absolute;
+    top: 0;
+    left: 300px;
+}
+
+.girl-3 {
+    position: absolute;
+    top: 0;
+    left: 400px;
+}
+.girl-4 {
+    position: absolute;
+    top: 0;
+    left: 500px;
+}
+.girl-5 {
+    position: absolute;
+    top: 0;
+    left: 600px;
+}
