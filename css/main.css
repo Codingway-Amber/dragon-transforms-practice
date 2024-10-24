@@ -70,11 +70,26 @@
 
 .peach-wrapper img {
     width: 900px;
-    transform: translate(300px, 50px) scale(1);
+    transform: translate(100px, 50px) scale(1);
     transition: all .5s ease-out;
     /* transform: scale(-1); */
 }
 
 .peach-wrapper:hover img {
-    transform: translate(300px, 50px) scale(-1);
+    transform: translate(100px, 50px) scale(-1);
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(50px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+.animated-element {
+    animation: bounce 1s infinite;
 }
