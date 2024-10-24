@@ -118,7 +118,7 @@
 }
 
 .fade-out {
-    animation: fadeOut 2s ease forwards;
+    animation: fadeOut 1s ease forwards;
 }
 
 .fade-in-out {
